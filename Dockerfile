@@ -1,7 +1,7 @@
 # Can't use alpine here without a lot of work. Seems like there are work arounds but in short there are several
 # issues in various projects that boil down to alpine using musl and not compileing correctly.
 # https://github.com/kubo/ruby-oci8/issues/129
-FROM php:7.0-cli-jessie
+FROM php:7.1-cli-jessie
 
 ENV ORACLE_HOME="/usr/lib/oracle/12.2/client64/lib"
 
